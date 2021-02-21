@@ -2,10 +2,10 @@
 IslamicApp Kotlin
 <br> 
 Referensi Sources<br>
-https://thaybah.id/2015/04/penjelasan-singkat-tentang-rukun-islam/
-http://ddi.or.id/pengumuman/biodata-25-nabi-dan-rasul/
-https://www.brilio.net/wow/6-rukun-iman-dalam-islam-pengertian-urutan-dan-maknanya-200424z.html
-https://rivaldi48.blogspot.com/2021/02/Tutorial-Membuat-Aplikasi-Bacaan-Sholat-dengan-Android-Studio.html
+https://thaybah.id/2015/04/penjelasan-singkat-tentang-rukun-islam/<br>
+http://ddi.or.id/pengumuman/biodata-25-nabi-dan-rasul/<br>
+https://www.brilio.net/wow/6-rukun-iman-dalam-islam-pengertian-urutan-dan-maknanya-200424z.html<br>
+https://rivaldi48.blogspot.com/2021/02/Tutorial-Membuat-Aplikasi-Bacaan-Sholat-dengan-Android-Studio.html<br>
 https://broonet.com/kumpulan-doa-sehari-hari/
 <br><br>
 Screenshot<br>
