@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Wajib",
+    "arab": "الواجب",
+    "task": "Wajib adalah sesuatu perbuatan yang jika dikerjakan akan mendapatkan pahala dan jika ditinggalkan akan diberi siksa. Contoh dari perbuatan yang memiliki hukum wajib adalah shalat lima waktu, puasa di bulan ramadhan, dan Zakat."
+  },
+  {
+    "id": 2,
+    "name": "Sunnah",
+    "arab": "سنة",
+    "task": "Sunnah ialah sesuatu perbuatan yang dituntut agama untuk dikerjakan tetapi tuntutannya tidak sampai ke tingkatan wajib atau sederhananya perbuatan yang jika dikerjakan akan mendapatkan pahala dan jika ditinggalkan tidak akan mendapatkan siksaan atau hukuman. Contoh dari perbuatan yang memiliki hukum mandud atau sunnah ialah  shalat yang dikerjakan sebelum/sesudah shalat fardhu."
+  },
+  {
+    "id": 3,
+    "name": "Mubah",
+    "arab": "مباح",
+    "task": "Mubah adalah suatu perbuatan yang diperbolehkan oleh agama antara mengerjakannya atau meninggalkannya. Contoh dari mubah adalah makan, minum, bermain yang sehat dan sebagainya."
+  },
+  {
+    "id": 4,
+    "name": "Makruh",
+    "arab": "مكروه",
+    "task": "Makruh adalah suatu perbuatan yang dirasakan jika meninggalkannya itu lebih baik dari pada mengerjakannya. Contoh dari perbuatan makruh ini adalah memakai sutra atau cincin emas bagi laki-laki."
+  },
+  {
+    "id": 5,
+    "name": "Haram",
+    "arab": "حرام",
+    "task": "Haram ialah sesuatu perbuatan yang jika dikejakan pasti akan mendapatkan siksaan dan jika ditinggalkan akan mendapatkan pahala. Contoh perbuatan yang memiliki hukum haram adalah membunuh, mabuk, judi, dan sebagainya."
+  }
+]

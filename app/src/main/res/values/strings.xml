@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IslamicApp</string>
+    <string name="drawerOpen">Open</string>
+    <string name="drawerClose">Close</string>
+</resources>

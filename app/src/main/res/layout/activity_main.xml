@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#104c78"
+        android:fitsSystemWindows="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:background="#EEEEEE">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <com.makeramen.roundedimageview.RoundedImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:elevation="5dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/mosq" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            android:background="#104c78"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.appbar.AppBarLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@android:color/transparent"
+                                android:elevation="0dp"
+                                app:elevation="0dp">
+
+                                <androidx.appcompat.widget.Toolbar
+                                    android:id="@+id/toolbar"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="?attr/actionBarSize"
+                                    android:background="@android:color/transparent"
+                                    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                                    app:contentInsetEnd="0dp"
+                                    app:contentInsetStart="0dp"
+                                    app:navigationIcon="@drawable/ic_arwhite"
+                                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+                            </com.google.android.material.appbar.AppBarLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                                <TextView
+                                    android:id="@+id/dsb"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Dashboard"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="30sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="20dp"
+                                    android:layout_below="@+id/dsb"
+                                    android:text="Welcome, Islamic App"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="20sp" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="170dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/btn1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    app:cardCornerRadius="16dp"
+                                    app:cardElevation="4dp">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/niatbaca"
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_centerInParent="true"
+                                            android:src="@drawable/shalat" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/niatbaca"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:text="Niat &amp; Bacaan"
+                                            android:textSize="16sp" />
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/btn2"
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:layout_margin="10dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    app:cardCornerRadius="16dp"
+                                    app:cardElevation="4dp">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/rukun"
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_centerInParent="true"
+                                            android:src="@drawable/quran" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/rukun"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:text="Rukun"
+                                            android:textSize="16sp" />
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:id="@+id/btn3"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:clickable="true"
+                                    app:cardElevation="4dp"
+                                    app:cardCornerRadius="16dp"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_margin="10dp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:id="@+id/malaikat"
+                                            android:src="@drawable/iconsm"
+                                            android:layout_centerInParent="true" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Malaikat"
+                                            android:textSize="16sp"
+                                            android:layout_below="@+id/malaikat"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"/>
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:id="@+id/btn4"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:clickable="true"
+                                    app:cardElevation="4dp"
+                                    app:cardCornerRadius="16dp"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_margin="10dp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="185dp"
+                                        android:layout_height="162dp">
+
+                                        <ImageView
+                                            android:id="@+id/nabirasul"
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:layout_centerInParent="true"
+                                            android:src="@drawable/praying2" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_below="@+id/nabirasul"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"
+                                            android:text="Nabi &amp; Rasul"
+                                            android:textSize="16sp" />
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:id="@+id/btn5"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:clickable="true"
+                                    app:cardElevation="4dp"
+                                    app:cardCornerRadius="16dp"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_margin="10dp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:id="@+id/hukum"
+                                            android:src="@drawable/iconrn"
+                                            android:layout_centerInParent="true" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Hukum Islam"
+                                            android:textSize="16sp"
+                                            android:layout_below="@+id/hukum"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"/>
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="0dp"
+                                    android:layout_height="160dp"
+                                    android:id="@+id/btn6"
+                                    android:layout_weight="1"
+                                    android:gravity="center"
+                                    android:clickable="true"
+                                    app:cardElevation="4dp"
+                                    app:cardCornerRadius="16dp"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_margin="10dp"
+                                    android:orientation="vertical">
+
+                                    <RelativeLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:layout_width="80dp"
+                                            android:layout_height="80dp"
+                                            android:id="@+id/doa"
+                                            android:src="@drawable/pray"
+                                            android:layout_centerInParent="true" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Doa - doa"
+                                            android:textSize="16sp"
+                                            android:layout_below="@+id/doa"
+                                            android:layout_centerHorizontal="true"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_marginBottom="10dp"/>
+
+                                    </RelativeLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:menu="@menu/drawer"
+        app:headerLayout="@layout/nav_header"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

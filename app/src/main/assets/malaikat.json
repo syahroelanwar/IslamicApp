@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Jibril",
+    "arab": "جبريل",
+    "task": "Malaikat Jibril memiliki tugas menyampaikan wahyu dari Allah SWT kepada Rasul-Rasul-Nya."
+  },
+  {
+    "id": 2,
+    "name": "Mikail",
+    "arab": "ميكيل",
+    "task": "Malaikat Mikail bertugas memberikan rezeki kepada setiap makhluk hidup di bumi."
+  },
+  {
+    "id": 3,
+    "name": "Israfil",
+    "arab": "إسرافيل",
+    "task": "Malaikat Israfil bertugas menjaga dan meniup sangkakala pada hari kiamat."
+  },
+  {
+    "id": 4,
+    "name": "Izrail",
+    "arab": "إزرائيل",
+    "task": "Malaikat Izrail bertugas mencabut nyawa seluruh makhluk hidup yang bernyawa."
+  },
+  {
+    "id": 5,
+    "name": "Munkar",
+    "arab": "منكر",
+    "task": "Malaikat Munkar akan datang ke alam kubur dan menanyai manusia soal keburukannya."
+  },
+  {
+    "id": 6,
+    "name": "Nakir",
+    "arab": "نكير",
+    "task": "Malaikat Nakir akan datang ke alam kubur dan menanyai manusia soal kebaikannya."
+  },
+  {
+    "id": 7,
+    "name": "Raqib",
+    "arab": "راقب",
+    "task": "Malaikat Raqib bertugas mencatat semua amal baik manusia selama masih hidup di dunia."
+  },
+  {
+    "id": 8,
+    "name": "Atid",
+    "arab": "أتيد",
+    "task": "Malaikat Atid mencatat semua amal buruk yang manusia lakukan selama masih hidup di dunia."
+  },
+  {
+    "id": 9,
+    "name": "Malik",
+    "arab": "مالك",
+    "task": "Malaikat Malik adalah malaikat yang bertugas untuk menjaga pintu neraka."
+  },
+  {
+    "id": 10,
+    "name": "Ridwan",
+    "arab": "رضوان",
+    "task": "Malaikat Ridwan adalah malaikat yang bertugas untuk menjaga pintu surga."
+  }
+]
